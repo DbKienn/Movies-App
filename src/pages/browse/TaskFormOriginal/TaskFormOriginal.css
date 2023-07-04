@@ -1,0 +1,25 @@
+.task-form-grid-original {
+  display: flex;
+  gap: 10px;
+}
+.task-form-grid-original:hover {
+  white-space: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+.task-item-original:hover {
+  scroll-snap-align: start;
+}
+
+.img-task-original {
+  padding: 5%;
+  width: 20vh;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.img-task-original:hover {
+  transform: scale(1.1);
+}

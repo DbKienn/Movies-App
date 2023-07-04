@@ -1,0 +1,27 @@
+.banner-content {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.banner-grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 40% 60%;
+}
+.btn-banner {
+  border: none;
+  margin-right: 10px;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: aliceblue;
+  background-color: #495057;
+  border-radius: 10px;
+}
+.btn-banner:hover {
+  background: linear-gradient(to right, #344a88, #19e6f5);
+}
+.banner-container-content {
+  padding-left: 5%;
+  color: aliceblue;
+  padding-top: 15%;
+}

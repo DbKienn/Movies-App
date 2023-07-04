@@ -1,0 +1,81 @@
+.search-container {
+  background-color: black;
+  height: 100vh;
+}
+.search-container > h3 {
+  color: aliceblue;
+  padding: 2%;
+}
+/* ---------------INPUT CONTAINER---------------- */
+.input-container {
+  border-radius: 10px;
+  width: 60%;
+  margin-left: 20%;
+  min-height: 120px;
+
+  background-color: aliceblue;
+  padding: 10px;
+  /* ------------------ FORM INPUT------------------ */
+}
+.form-input-container {
+  display: flex;
+  border-bottom: 2px solid #228be6;
+  margin-bottom: 8px;
+}
+#icon-search-input {
+  padding: 5px;
+  font-size: 28px;
+
+  color: #868e96;
+}
+.form-input {
+  background: none;
+  font-size: 18px;
+  color: #868e96;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+/* -------------------BUTTON INPUT------------------ */
+.btn-input-container {
+  float: right;
+}
+.btn-input {
+  color: #868e96;
+  border: none;
+  padding: 8px;
+  margin-bottom: 5px;
+  right: 0;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+#btn-reset {
+  margin-right: 10px;
+}
+#btn-reset:hover {
+  background-color: red;
+  color: aliceblue;
+}
+#btn-search {
+  background-color: #228be6;
+  color: aliceblue;
+}
+/* ------------------- FORMAT DATA MOVIE INPUT FORM------------------------ */
+.img-search {
+  padding: 5%;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+.search-form {
+  background-color: black;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.img-search:hover {
+  transform: scale(1.1);
+}
